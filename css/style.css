@@ -50,31 +50,9 @@ li {
 
 
 /* メイン */
-#main{
+/* .main-img{
   width: 100vw;
-}
-.nav-menu {
-  display: flex;
-  justify-content: right;
-  padding: 10px 40px 10px 0;
-}
-#main li {
-  font-size: 1.5rem;
-  margin-left: 30px;
-}
-#main li a {
-  color: #24292e;
-}
-#main li a:hover {
-  opacity: 0.7;
-}
-#main li img.icon {
-  width: 30px;
-}
-
-.main-img{
-  width: 100vw;
-}
+} */
 
 .menu-list{
   display: flex;
