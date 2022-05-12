@@ -20,11 +20,14 @@ li {
 
 /* ヘッダー */
 #header{
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
   border-bottom: solid 1px darkolivegreen;
+  position: fixed;
+  z-index: 10;
 }
 #header ul {
   display: flex;
@@ -50,9 +53,16 @@ li {
 
 
 /* メイン */
-/* .main-img{
-  width: 100vw;
-} */
+
+#main{
+  padding-top: 190px;
+}
+
+.main-img{
+  width: 80%;
+  margin: auto;
+  padding-top: 100px;
+}
 
 .menu-list{
   display: flex;
