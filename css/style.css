@@ -2,6 +2,7 @@
 
 html {
   font-size: 100%;
+  margin: 0;
 }
 body {
   color: #24292e;
@@ -59,7 +60,7 @@ li {
 }
 
 .main-img{
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding-top: 100px;
 }
@@ -74,3 +75,27 @@ li {
   margin: 20px auto;
 }
 
+.strong{
+  color: darkolivegreen;
+}
+
+.text{
+  margin-bottom: 10px;
+}
+
+/* スマホ用画面 */
+@media screen and (max-width: 600px){
+
+  #header li {
+    font-size: 18px;
+    margin-left: 18px;
+  }
+
+  .menu-list{
+    flex-direction: column;
+  }
+
+  .menu-list li{
+    width: 80%;
+  }
+}
