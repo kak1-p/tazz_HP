@@ -86,6 +86,11 @@ li {
 /* スマホ用画面 */
 @media screen and (max-width: 620px){
 
+  #header ul {
+    display: flex;
+    padding: 2px 10px 2px 0;
+  }
+
   #header li {
     font-size: 15px;
     margin-left: 15px;
