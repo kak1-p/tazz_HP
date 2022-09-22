@@ -88,17 +88,16 @@ li {
 
   #header ul {
     display: flex;
-    padding: 2px 10px 2px 0;
+    padding: 2px 20px 2px 0;
   }
 
   #header li {
     font-size: 15px;
-    margin-left: 15px;
-    margin-left: 18px;
+    margin-left: 20px;
   }
 
   #header li img.icon {
-    width: 20px;
+    width: 25px;
   }
 
   .menu-list{
@@ -106,6 +105,29 @@ li {
   }
 
   .menu-list li{
+    width: 80%;
+  }
+
+  /* Safari画面 */
+  _:lang(x)+_:-webkit-full-screen-document, #header ul {
+    display: flex;
+    padding: 2px 20px 2px 0;
+  }
+
+  _:lang(x)+_:-webkit-full-screen-document, #header li {
+    font-size: 15px;
+    margin-left: 20px;
+  }
+
+  _:lang(x)+_:-webkit-full-screen-document, #header li img.icon {
+    width: 25px;
+  }
+
+  _:lang(x)+_:-webkit-full-screen-document, .menu-list{
+    flex-direction: column;
+  }
+
+  _:lang(x)+_:-webkit-full-screen-document, .menu-list li{
     width: 80%;
   }
 }
