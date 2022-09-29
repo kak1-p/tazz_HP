@@ -26,6 +26,7 @@ li {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+  height: 125px;
   border-bottom: solid 1px darkolivegreen;
   position: fixed;
   z-index: 10;
@@ -49,7 +50,7 @@ li {
 }
 
 .site-title{
-  width: 25vw;
+  width: 15%;
 }
 
 
@@ -100,6 +101,10 @@ li {
     width: 25px;
   }
 
+  .site-title{
+    width: 25%;
+  }
+
   .menu-list{
     flex-direction: column;
   }
@@ -121,6 +126,10 @@ li {
 
   _:lang(x)+_:-webkit-full-screen-document, #header li img.icon {
     width: 25px;
+  }
+
+  _:lang(x)+_:-webkit-full-screen-document, .site-title{
+    width: 25%;
   }
 
   _:lang(x)+_:-webkit-full-screen-document, .menu-list{
